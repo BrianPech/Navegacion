@@ -51,5 +51,10 @@ fun ContentDetailView(
         MainButton(name = "Return Home ", backColor = Color.Blue, color = Color.White) {
             navController.navigate("Home")
         }
+        Space()
+        MainButton(name = "Third View", backColor = Color.Blue, color = Color.White) {
+            navController.navigate("Third")
+        }
+
     }
 }

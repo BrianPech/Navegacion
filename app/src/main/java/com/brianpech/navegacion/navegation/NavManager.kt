@@ -6,6 +6,7 @@ import androidx.navigation.compose.rememberNavController
 import androidx.navigation.compose.composable
 import com.brianpech.navegacion.views.DetailView
 import com.brianpech.navegacion.views.HomeView
+import com.brianpech.navegacion.views.ThirdView
 
 
 @Composable
@@ -17,6 +18,9 @@ fun NavManager() {
         }
         composable("Detail") {
             DetailView(navController)
+        }
+        composable("Third") {
+            ThirdView(navController)
         }
     }
 }
